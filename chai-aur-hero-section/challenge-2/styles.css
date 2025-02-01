@@ -12,54 +12,106 @@
 }
 
 body {
+  height: 100vh;
 }
 
 .hero {
+  height: 100vh;
 }
 
 .hero-grid {
+  margin: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height: 500px;
+}
+
+.content-col {
+  display: grid;
+  grid-template-rows: 35% 20% 25% 20%;
+  align-items: center;
 }
 
 .content-col h1 {
+  text-indent: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  grid-row: 1/2;
+  font-size: 70px;
+  text-align: left;
 }
 
 .content-col p {
+  font-family: Arial, Helvetica, sans-serif;
+  grid-row: 2/3;
+  align-self: flex-start;
+  text-align: left;
+  font-size: x-large;
 }
 
 .cta-group {
+  align-self: flex-start;
+  grid-row: 3/4;
+  display: flex;
 }
 
 .sr-only {
 }
 
 .input-wrapper {
+  grid-row: 3/4;
+  align-self: flex-end;
 }
 
 input[type='text'] {
+  height: 50px;
+  border-radius: 10px;
+  width: 350px;
+  border-color: azure;
+  margin-right: 10px;
+  padding: 5px;
 }
 
 .demo-button {
+  border-radius: 10px;
+  font-size: large;
+  color: white;
+  border-color: white;
+  background-color: #2563eb;
+  padding: 5px;
+  width: 200px;
 }
 
 .demo-button:hover {
+  cursor: pointer;
 }
 
 .brands-section {
+  padding-right: 5px;
+  grid-row: 4/5;
+
+  align-self: flex-start;
 }
 
 .trusted-by {
 }
 
 .brand-logos {
+  height: 10px;
 }
 
 .brand-logo {
+  margin-left: 5px;
+  height: 40px;
 }
 
 .image-col {
 }
 
 .hero-image {
+  height: 500px;
+  border-radius: 30px;
 }
 
 @media (min-width: 640px) {
