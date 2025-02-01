@@ -55,7 +55,7 @@
   
   .pricing-card:hover {
     /* Add your styles here */
-
+    cursor: pointer;
   }
   
   .pricing-card.popular {
@@ -120,5 +120,6 @@
   
   .subscribe-btn:hover {
     /* Add your styles here */
+    cursor: pointer;
   }
   

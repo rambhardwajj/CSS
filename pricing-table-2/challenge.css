@@ -1,0 +1,197 @@
+/* Challenge CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#1a1a1a;
+  }
+  
+  .container {
+    /* Add your styles here */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    /* Add your styles here */
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+    font-size: xx-large;
+  }
+  
+  h1 {
+    /* Add your styles here */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #ff6b6b;
+  }
+  
+  .subtitle {
+    /* Add your styles here */
+    font-size: medium;
+    color: #656565;
+  }
+  
+  .pricing-container {
+    /* Add your styles here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pricing-card {
+    /* Add your styles here */
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding : 30px 20px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #262626;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+ 
+  
+  .pricing-card:hover {
+    /* Add your styles here */
+    cursor: pointer;
+  }
+  
+  .card-header {
+    /* Add your styles here */
+    font-size: small;
+  }
+  
+  .icon {
+    /* Add your styles here */
+    font-size: 30px;
+    padding : 20px 20px;
+  }
+  
+  .popular-tag {
+    /* Add your styles here */
+    color: black;
+    font-size: x-small;
+    font-weight: bold;
+    background-color: #e5c339;
+    border-radius: 20px;
+    padding: 5px 20px;
+    position: absolute;
+    top: -11px;
+  }
+  
+  .price-block {
+    /* Add your styles here */
+    padding : 10px 50px;
+    background-color: #303030;
+    border-radius: 10px;
+  }
+  
+  .price {
+    /* Add your styles here */
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ff6b6b;
+  }
+  
+  .period {
+    /* Add your styles here */
+    font-size: 10px;
+    color: #7b7979;
+  }
+  
+  .features {
+    /* Add your styles here */
+    margin: 30px 0;
+    width: 200px;
+    list-style-type : none;
+    color: #c7c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .features li {
+    /* Add your styles here */
+    margin: 10px 5px;
+    font-size: x-small;
+  }
+  
+  .features li.disabled {
+    /* Add your styles here */
+    color: #444444;
+  }
+  
+  
+  .join-btn {
+    /* Add your styles here */
+    background-color: #312222;
+    border-radius: 10px;
+    border: 2px solid   #ff6b6b;
+    padding : 10px 35px;
+    color :  #ff6b6b;
+    font-weight: bold;
+  }
+
+  .beginner .join-btn{
+    background-color: #262626 ;
+  }
+  
+  .join-btn:hover {
+    /* Add your styles here */
+    cursor: pointer;
+  }
+  
+  /* Custom Class Modifiers */
+  .popular{
+    background-color: #312222;
+    border: 1px solid #ff6b6b ;
+  }
+  .warrior .price-block{
+    background-color: #3c2d2d;
+  }
+  .champion{
+    background-color: #312d1d;
+    border: 1px solid #ffd93d;
+  }
+  .champion .price-block{
+    background-color: #3c3829;
+  }
+  
+  .champion .price {
+    /* Add your styles here */
+    color: #e5c339;
+  }
+  
+  .champion .join-btn {
+    /* Add your styles here */
+    background-color: #312d1d;
+    border-radius: 10px;
+    border: 2px solid  #e5c339;
+    padding : 10px 50px;
+    color : #e5c339;
+    font-weight: bold;
+  }
+  
+  .champion .join-btn:hover {
+    /* Add your styles here */
+    cursor: pointer;
+  }
+  
